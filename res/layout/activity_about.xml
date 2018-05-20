@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="coba.ir.about">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Beberapa referensi :
+
+                                1. http://bo-fsakti.blogspot.co.id/2013/03/penerapan-information-retrieval.html
+
+        2. http://test-your-might.blogspot.co.id/2014/12/membuat-mesin-pencarian-dengan-php-dan.html
+
+                        3.https://komputasi.wordpress.com/category/data-mining-ir/page/2/
+
+                4. http://nugikkool.blogspot.co.id/2011/07/sistem-temu-balik-informasi-membuat.html
+
+                                                                            5. http://mkf-blog.blogspot.co.id/2014/01/sistem-temu-balik-informasi-searche.html"
+
+        android:textSize="20sp"
+        android:textColor="@color/hitam"
+        android:gravity="left"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="-Fatah Alim-"
+        android:textSize="20sp"
+        android:textColor="@color/hitam"
+        android:gravity="center"
+        android:layout_marginTop="430dp"
+        />
+</RelativeLayout>
